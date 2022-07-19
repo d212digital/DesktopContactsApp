@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
+
 namespace DesktopContactsApp.Classes
 {
     public class Contact
@@ -15,7 +16,7 @@ namespace DesktopContactsApp.Classes
 
         public override string ToString()
         {
-            return $"{Name} - {Email} {Phone}";
+            return $"{Name} - {Email} - {Phone}";
         }
     }
 }
